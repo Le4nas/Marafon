@@ -1,0 +1,25 @@
+﻿<Window x:Class="Marafon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marafon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Frame Grid.Row="1" Source="Main_Page.xaml"  x:Name="Main"></Frame>
+        <StackPanel Grid.Row="0" Background="#1144AA">
+            <TextBlock FontSize="30" FontWeight="Bold" Foreground="#fff" HorizontalAlignment="Center" Margin="0 20 0 10" VerticalAlignment="Center">MARATHON SKILLS 2016</TextBlock>
+            <TextBlock FontSize="18" Foreground="#fff" HorizontalAlignment="Center" >Москва, Россия среда 21 октября 2016</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Background="#1144AA">
+            <TextBlock  Foreground="#fff" HorizontalAlignment="Center"  FontSize="16" Padding="0 8 0 8" VerticalAlignment="Center">18 дней 8 часов и 17 минут до старта марафона!</TextBlock>
+        </StackPanel>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="126"/>
+            <RowDefinition Height="278*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+    </Grid>
+</Window>

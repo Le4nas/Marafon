@@ -1,0 +1,19 @@
+﻿<Page x:Class="Marafon.Pages.Main_Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Marafon.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Main_Page">
+
+    <Grid Height="450" >
+        <StackPanel Grid.Row="1" Margin="0 20 0 0">
+            <Button  Padding="0 10 0 15" FontSize="20" Background="#1144AA" Foreground="#fff" Margin="0 0 0 15" Width="350">Я хочу стать бугуном</Button>
+            <Button  Padding="0 10 0 15" FontSize="20" Background="#1144AA" Foreground="#fff" Margin="0 0 0 15"  Width="350">Я хочу сатать спонсором бегуна</Button>
+            <Button  Padding="10 10 10 15" FontSize="20" Background="#1144AA" Foreground="#fff" Margin="0 0 0 15"  Width="350">Я хочу узанать больше о событие</Button>
+            <Button  Padding="40 0 40 5" FontSize="20" Background="#1144AA" Foreground="#fff" Margin="0 130 30 15" HorizontalAlignment="Right"  Content="Login"/>
+        </StackPanel>
+    </Grid>
+</Page>
